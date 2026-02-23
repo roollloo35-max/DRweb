@@ -1,0 +1,8 @@
+
+
+export default function Arrow() {
+    return (
+        <svg width="26" height="11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 9.651h23.5L16 .64" stroke="#141414" stroke-width="2" /></svg>
+
+    )
+}

@@ -1,0 +1,22 @@
+.title_text {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    position: relative;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.title_text::before {
+    position: absolute;
+    left: 10%;
+    width: 500px;
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #333;
+    top: 50%;
+}

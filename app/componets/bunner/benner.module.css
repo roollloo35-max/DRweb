@@ -1,0 +1,38 @@
+.banner__conteiner {
+    margin-top: 100px;
+    position: relative;
+}
+
+
+.title_text {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 72px;
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #333;
+}
+
+.title_text::before {
+    position: absolute;
+    right: 0;
+    width: 680px;
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #333;
+    top: 40px;
+}
+.p__text {
+    color: #333;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 300%;
+    letter-spacing: 0%;
+
+}
