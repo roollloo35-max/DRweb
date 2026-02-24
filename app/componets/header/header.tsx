@@ -15,7 +15,7 @@ export default function Header() {
                 <ul className={`${roboto.className} ${styles.menu} text-[16px] `}>
                     <li><Link className={`${styles.links} transition`} href="/">Home</Link> </li>
                     <li><Link className={`${styles.links} transition`} href="/Pages/About">About Us</Link> </li>
-                    <li><Link className={`${styles.links} transition`} href="/">Services</Link> </li>
+                    <li><Link className={`${styles.links} transition`} href="/Pages/Services">Services</Link> </li>
                     <li><Link className={`${styles.links} transition`} href="/">Our Teams</Link> </li>
                     <li><Link className={`${styles.btn__header}`} href="/">Contact Us</Link></li>
                 </ul>

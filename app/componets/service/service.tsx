@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function Service() {
     return (
 
-        <section className="mt-[150px]">
+        <section className="mt-[150px] mb-[400px]">
         <div className="w-[1200px] m-auto relative z-[1]">
 
             <div className="bg-[#fff] w-[50%]">

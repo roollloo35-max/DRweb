@@ -3,13 +3,13 @@ import ArrowRight from '../assetsSvg/arrowRight'
 
 export default function Product() {
     return (
-        <section className="pt-[500px]">
+        <section className="pt-[50px]">
         <div className="w-[1200px] conteiner">
 
             <div className={`${styles.title_text}`}>
                 PRODUCT
             </div>
-            <div className='flex justify-between w-full items-center pt-[50px] pb-[80px]'>
+            <div className='flex justify-between w-full items-center pt-[50px] pb-[30px]'>
 
                 <p className="block  text-[36px] pb-[50px] w-[25%] font-[700] leading-[160%]  text-[#333]">Choose your product themes.”</p>
                 <p className="block  text-[18px] pb-[0px] w-[35%] font-[400] leading-[160%]  text-[#9C9C9C]">Find the theme you want. If our choice of theme is not what you want, you can customize it as you want.</p>
