@@ -15,7 +15,7 @@ export default function Home() {
       <AboutSec />
       <Service />
       <Product />
-      <Material />
+      <Material /> 
       {/* <Footer /> */}
 
     </div>

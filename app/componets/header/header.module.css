@@ -12,9 +12,7 @@
 
 
 .menu {
-    display: flex;
     justify-content: space-between;
-    width: 700px;
     align-items: center;
 }
 
@@ -31,20 +29,3 @@
     font-weight: 600;
 }
 
-.btn__header {
-    width: 142;
-    height: 49;
-    border-width: 1px;
-    padding-top: 14px;
-    padding-right: 32px;
-    padding-bottom: 14px;
-    padding-left: 32px;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 14px;
-    line-height: 150%;
-    color: #fff;
-    letter-spacing: 0%;
-    background-color: #2C3878;
-    display: block;
-}

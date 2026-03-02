@@ -6,13 +6,12 @@
     position: relative;
     line-height: 150%;
     letter-spacing: 0%;
-
+    width: 100%;
 }
 
 .title_text::before {
     position: absolute;
-    left: 14%;
-    width: 500px;
+    width: 50%;
     content: '';
     display: block;
     height: 2px;

@@ -18,7 +18,7 @@
 .title_text::before {
     position: absolute;
     left: 65px;
-    width: 500px;
+    width: 45%;
     content: '';
     display: block;
     height: 2px;
@@ -37,14 +37,7 @@
     width: 85%;
 }
 
-.content_text {
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 160%;
-    letter-spacing: 0%;
-    color: #9C9C9C;
-}
+
 
 .btn__about {
     width: 142;
@@ -62,5 +55,6 @@
     letter-spacing: 0%;
     background-color: #2C3878;
     display: block;
-    margin-bottom: 100px;
+    margin-left: 10px;
+    border: none
 }

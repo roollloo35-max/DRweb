@@ -11,8 +11,8 @@
 
 .title_text::before {
     position: absolute;
-    left: 30%;
-    width: 500px;
+
+    width: 50%;
     content: '';
     display: block;
     height: 2px;
@@ -24,8 +24,8 @@
     padding-top: 50px;
     font-weight: 600;
     font-style: SemiBold;
-    font-size: 36px;
+  
     line-height: 170%;
     letter-spacing: 0%;
-    width: 85%;
+
 }
