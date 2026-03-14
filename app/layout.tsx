@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="w-full">
 
-      <body className={`${roboto.className} antialised`}>
+      <body className={`${roboto.className} antialised mt-[30px]`}>
 
           <Header />
 

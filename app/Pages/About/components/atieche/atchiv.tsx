@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Achievement() {
     return (
-        <div className='w-[1200px] m-auto'>
+        <section className='w-[1200px] m-auto'>
 
             <div className={`${styles.title_text}`}>
                 ACHIEVEMENT
@@ -31,6 +31,6 @@ export default function Achievement() {
 
 
             </div>
-        </div>
+        </section>
     )
 }

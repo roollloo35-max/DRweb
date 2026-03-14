@@ -4,7 +4,7 @@ export default function BunnerS() {
     return (
 
 
-            <div className="w-[1200px] pb-[100px] conteiner">
+            <section className="w-[1200px] pb-[100px] conteiner">
 
                 <h2 className="text-[56px] font-bold text-center leading-[140%] pt-[200px]">Services</h2>
 
@@ -16,7 +16,7 @@ export default function BunnerS() {
                 width={1200}
                 height={513}
                 />
-            </div>
+            </section>
 
 //    WE OFFER
     )

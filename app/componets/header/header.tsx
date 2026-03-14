@@ -44,20 +44,14 @@ export default function Header() {
 
     return (
 
-        <header className="relative grid grid-cols-[minmax(16px,1fr)_minmax(320px,1200px)_minmax(16px,1fr)]">
-            <div className="col-start-2 w-full fixed m-auto md:static bg-[#fff] left-0 pt-[20px] pl-[50px] pr-[40px] md:pl-none md:pr-none top-0 z-[20] text-[72px] flex flex-row justify-between item-center">
+        <header className="grid fixed bg-[#fff] md:static grid-cols-[minmax(16px,1fr)_minmax(320px,1200px)_minmax(16px,1fr)] top-0 pt-[20px] z-[20]">
+            <div className="col-start-2 w-full  m-auto md:static   md:flex flex-row justify-between item-start grid grid-cols-[max(50%)_max(10%)] grid-rows-[max[0], max[0]]">
 
+            <div className="">
                 <Logo />
+            </div>
 
-                <ul className={` ${styles.menu} text-[18px] md:text-[16px] md:flex ${hide}  lg:w-[58%] md:w-[75%]`}>
-                    <li><Link className={`${styles.links} transition`} href="/">Home</Link> </li>
-                    <li><Link className={`${styles.links} transition`} href="/Pages/About">About Us</Link> </li>
-                    <li><Link className={`${styles.links} transition`} href="/Pages/Services">Services</Link> </li>
-                    <li><Link className={`${styles.links} transition`} href="/">Our Teams</Link> </li>
-                    <li><Link className={`${styles.links} transition`} href="/">Contact Us</Link></li>
-                </ul>
-
-                <button className="block md:hidden mr-[20px] mt-[7px] cursor-pointer" onClick={toggle} >
+                <button className="block md:hidden mt-[10px] cursor-pointe h-0  row-start-1 col-start-2 " onClick={toggle} >
                     <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
 
                         <g color="#2C3878"  stroke-width="3">
@@ -68,6 +62,17 @@ export default function Header() {
 
                     </svg>
                 </button>
+
+
+                <ul className={` justify-between items-center md:text-[20px] text-[16px] md:flex ${hide}  lg:w-[58%] md:w-[75%] md:m-0  mt-[30px] mb-[20px] row-strat-2 col-span-2`}>
+                    <li><Link className={`md:hover:font-bold block text-center transition  md:pt-0  md:pb-0  pt-[10px]   pb-[10px]`} href="/">Home</Link> </li>
+                    <li><Link className={`md:hover:font-bold block text-center transition  md:pt-0  md:pb-0  pt-[10px]   pb-[10px]`} href="/Pages/About">About Us</Link> </li>
+                    <li><Link className={`md:hover:font-bold block text-center transition  md:pt-0  md:pb-0  pt-[10px]   pb-[10px]`} href="/Pages/Services">Services</Link> </li>
+                    <li><Link className={`md:hover:font-bold block text-center transition  md:pt-0  md:pb-0  pt-[10px]   pb-[10px]`} href="/Pages/Teams">Our Teams</Link> </li>
+                    <li><Link className={`md:hover:font-bold block text-center transition  md:pt-0  md:pb-0  pt-[10px]   pb-[10px]`} href="/">Contact Us</Link></li>
+                </ul>
+
+                
             </div>
         </header>
 

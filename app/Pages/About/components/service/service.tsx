@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function ServiceA() {
     return (
-        <div className="w-[1200px] m-auto mt-[150px] mb-[150px]">
+        <section className="w-[1200px] m-auto mt-[150px] mb-[150px]">
             <div className={`${styles.title_text}`}>
                 SERVICE
             </div>
@@ -47,6 +47,6 @@ export default function ServiceA() {
                     <p className='text=-[18px] text-[#9c9c9c] font-normal text-center leading-[160%] pt-[20px] w-[90%]'>We provide a full cycle of support—from the first consultation to the final placement of furniture—so you can relax and enjoy the process.</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

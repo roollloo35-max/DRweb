@@ -3,7 +3,7 @@ import ArrowRight from '../assetsSvg/arrowRight'
 
 export default function Product() {
     return (
-        <section className="pt-[50px] md:mt-[400px] grid grid-cols-[minmax(16px,1fr)_minmax(320px,1200px)_minmax(16px,1fr)] md:mt-[150px] mt-[75px]">
+        <section className="pt-[50px] md:mt-[400px] grid grid-cols-[minmax(16px,1fr)_minmax(320px,1200px)_minmax(16px,1fr)]  mt-[0px]">
         <div className="w-full col-start-2"> 
 
             <div className={`${styles.title_text} md:before:left-[10%] before:left-[25%]`}>

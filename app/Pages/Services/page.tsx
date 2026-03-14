@@ -5,11 +5,11 @@ import Offer from "./components/offer/offer"
 export default function Page(){
     return (
 
-        <div>
+        <section>
 
             <BunnerS />
             <Offer />
-        </div>
+        </section>
 
     )
 }

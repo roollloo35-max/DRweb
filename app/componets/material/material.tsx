@@ -3,7 +3,7 @@ import styles from "@/app/componets/material/material.module.css";
 
 export default function Material() {
     return (
-        <section className="mt-[80px] w-full mb-[150px] z-[1] grid grid-cols-[minmax(16px,1fr)_minmax(320px,1200px)_minmax(16px,1fr)] md:mt-[150px] mt-[75px]">
+        <section className="mt-[80px] w-full mb-[450px] z-[1] grid grid-cols-[minmax(16px,1fr)_minmax(320px,1200px)_minmax(16px,1fr)] md:mt-[150px] mt-[10px]">
             <div className="w-full col-start-2 m-auto  md:flex  block justify-between ">
 
                 <div className="bg-[#fff] md:w-[30%] w-[100%]">
@@ -18,23 +18,23 @@ export default function Material() {
                     <a href="/" className="block border border-[#2C3878] w-[142] h-[50] transition text-[14px] text-center leading-12.5 hover:bg-[#2C3878] hover:text-[#fff]">See Materials</a>
 
                 </div>
-                <div className="relative md:w-[50%] w-100% mt-[50px]">
+                <div className="relative md:w-[50%] md:block w-100% mt-[50px]  ">
                     <Image
-                        className="md:absolute static left-[-5%] top-[15%]"
+                        className="absolute md:left-[-5%] md:top-[15%]  "
                         src={"/mat2.png"}
                         alt="mat2"
                         width={340}
                         height={392}
                     />
                     <Image
-                        className="md:absolute static right-[2%] top-[-10%]"
+                        className="absolute md:right-[2%] md:top-[-10%] right-0"
                         src={"/mat1.png"}
                         alt="mat2"
                         width={240}
                         height={225}
                     />
                     <Image
-                        className="md:absolute static right-[8.5%] bottom-[-27%]"
+                        className="absolute md:right-[8.5%] md:bottom-[-27%] right-0 hidden md:block"
                         src={"/mat3.png"}
                         alt="mat2"
                         width={200}
@@ -46,4 +46,5 @@ export default function Material() {
         </section>
     )
 }
+
 

@@ -13,8 +13,8 @@ export default function Service() {
                 <div className={`${styles.title_text} md:before:left-[14%] before:left-[22%]`}>
                     SERVICE
                 </div>
-                <p className={`${styles.p__text}`}>attractive furniture with the best quality.</p>
-                <p className="block pt-[50px] pb-[50px] text-[18px] font-[400] leading-[160%] w-[90%] text-[#9C9C9C]">
+                <p className={`${styles.p__text} md:text-[36px] text-[20px]`}>attractive furniture with the best quality.</p>
+                <p className="block pt-[50px] pb-[50px] md:text-[18px] text-13px font-[400] leading-[160%] w-[90%] text-[#9C9C9C]">
                     Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.
                 </p>
                 <ul className="">

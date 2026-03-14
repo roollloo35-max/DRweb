@@ -4,7 +4,7 @@ export default function BunnerA() {
     return (
 
 
-            <div className="w-[1200px] conteiner">
+            <section className="w-[1200px] conteiner">
 
                 <h2 className="text-[56px] font-bold text-center leading-[140%] pt-[200px]">About</h2>
 
@@ -16,7 +16,7 @@ export default function BunnerA() {
                 width={1200}
                 height={513}
                 />
-            </div>
+            </section>
 
     )
 }
